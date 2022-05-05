@@ -17,3 +17,4 @@ diemduoi += Number(tinchi[i].innerText);
 }
 console.log("Tong tin chi : " + diemduoi);
 console.log("Diem trung binh : " + diemtren / diemduoi);
+
