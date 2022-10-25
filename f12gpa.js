@@ -1,4 +1,4 @@
-﻿var tinchi = document.querySelectorAll("td:nth-child(3)");
+var tinchi = document.querySelectorAll("td:nth-child(3)");
 var monhoc = document.querySelectorAll("td:nth-child(2)");
 var diem = document.querySelectorAll("td:nth-child(6)");
 var diemtren = 0,
@@ -8,7 +8,8 @@ if (
 monhoc[i].innerText.includes("Thể dục") ||
 monhoc[i].innerText.includes("Anh văn") ||
 monhoc[i].innerText.includes("Tin học") ||
-monhoc[i].innerText.includes("Giáo dục") || Number(diem[i].innerText) < 5
+monhoc[i].innerText.includes("Giáo dục") ||
+diem[i].innerText.includes("Vắng") || Number(diem[i].innerText) < 5
 ) {
 continue;
 }
